@@ -102,6 +102,29 @@ export default function IssuedCertificetes() {
         },
         {
             id: 5,
+            certificateId: '230037',
+            studentName: 'Taufeeq Ansari',
+            fatherName: '',
+            enrollmentNo: '102442',
+            courseName: 'PGDCA',
+            batchName: 'Batch-1',
+            issueDate: '',
+            completionDate: 'Feb 2024',
+            grade: 'A',
+            status: 'Verified',
+            mobile: '',
+            email: '',
+            photo: userImage,
+            semester: 'Sem 2',
+            session: 'Mar-2023 to Feb-2024',
+            guardianContact: '',
+            activeStatus: 'A',
+            assignmentStatus: '',
+            batchTiming: '',
+            address: 'Lucknow',
+        },
+        {
+            id: 6,
             certificateId: '',
             studentName: 'Kamran',
             fatherName: '',
@@ -124,7 +147,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 6,
+            id: 7,
             certificateId: '',
             studentName: 'Waliya',
             fatherName: '',
@@ -147,7 +170,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 7,
+            id: 8,
             certificateId: '',
             studentName: 'Nitin',
             fatherName: '',
@@ -170,7 +193,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 8,
+            id: 9,
             certificateId: '',
             studentName: 'Fazilat',
             fatherName: '',
@@ -193,7 +216,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 9,
+            id: 10,
             certificateId: '',
             studentName: 'Zain',
             fatherName: '',
@@ -216,7 +239,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 10,
+            id: 11,
             certificateId: '',
             studentName: 'Sahil Zaidi',
             fatherName: '',
@@ -239,7 +262,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 11,
+            id: 12,
             certificateId: '',
             studentName: 'Alisha',
             fatherName: '',
@@ -262,7 +285,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 12,
+            id: 13,
             certificateId: '',
             studentName: 'Shivam',
             fatherName: '',
@@ -285,7 +308,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 13,
+            id: 14,
             certificateId: '',
             studentName: 'Zama',
             fatherName: '',
@@ -308,7 +331,30 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 14,
+            id: 15,
+            certificateId: '250058',
+            studentName: 'Anam',           
+            fatherName: '',
+            enrollmentNo: '102458',
+            courseName: 'DCA',
+            batchName: 'Batch-2',
+            issueDate: '',
+            completionDate: 'Oct 2025',
+            grade: 'A',
+            status: 'Verified',
+            mobile: '',
+            email: '',
+            photo: userImage,
+            semester: 'Sem 2',
+            session: 'Mar-2025 to Oct-2025',
+            guardianContact: '',
+            activeStatus: 'A',
+            assignmentStatus: '',
+            batchTiming: '',
+            address: 'Lucknow',
+        },
+        {
+            id: 16,
             certificateId: '',
             studentName: 'Tatheer',
             fatherName: '',
@@ -331,7 +377,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 15,
+            id: 17,
             certificateId: '',
             studentName: 'Mukhtar Khan',
             fatherName: '',
@@ -354,7 +400,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 16,
+            id: 18,
             certificateId: '',
             studentName: 'Rahbar Ayyub Khan',
             fatherName: '',
@@ -377,7 +423,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 17,
+            id: 19,
             certificateId: '',
             studentName: 'Farhat Jaha',
             fatherName: '',
@@ -400,7 +446,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 18,
+            id: 20,
             certificateId: '',
             studentName: 'Mahvish',
             fatherName: '',
@@ -423,7 +469,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 19,
+            id: 21,
             certificateId: '',
             studentName: 'Vaiza Meraj',
             fatherName: '',
@@ -446,7 +492,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 20,
+            id: 22,
             certificateId: '',
             studentName: 'Amit Kumar',
             fatherName: '',
@@ -469,7 +515,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 21,
+            id: 23,
             certificateId: '',
             studentName: 'Ruchi Yadav',
             fatherName: '',
@@ -492,7 +538,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 22,
+            id: 24,
             certificateId: '',
             studentName: 'Md Kaif',
             fatherName: '',
@@ -515,7 +561,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 23,
+            id: 25,
             certificateId: '',
             studentName: 'Aditya Yadav',
             fatherName: '',
@@ -538,7 +584,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 24,
+            id: 26,
             certificateId: '',
             studentName: 'Sahiba',
             fatherName: '',
@@ -561,7 +607,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 25,
+            id: 27,
             certificateId: '',
             studentName: 'Abdur Rehman',
             fatherName: '',
@@ -584,7 +630,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 26,
+            id: 28,
             certificateId: '',
             studentName: 'Ayaan Ali',
             fatherName: '',
@@ -607,7 +653,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 27,
+            id: 29,
             certificateId: '',
             studentName: 'Abdul Wahab',
             fatherName: '',
@@ -630,7 +676,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 28,
+            id: 30,
             certificateId: '',
             studentName: 'Mehvish',
             fatherName: '',
@@ -653,7 +699,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 29,
+            id: 31,
             certificateId: '',
             studentName: 'Zehra Fatima',
             fatherName: '',
@@ -676,7 +722,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 30,
+            id: 32,
             certificateId: '',
             studentName: 'Shuja Ali',
             fatherName: '',
@@ -699,7 +745,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 31,
+            id: 33,
             certificateId: '',
             studentName: 'Yasir',
             fatherName: '',
@@ -722,7 +768,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 32,
+            id: 34,
             certificateId: '',
             studentName: 'Saumya',
             fatherName: '',
@@ -745,7 +791,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 33,
+            id: 35,
             certificateId: '',
             studentName: 'Sahil Abbas',
             fatherName: '',
@@ -768,7 +814,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 34,
+            id: 36,
             certificateId: '',
             studentName: 'KMC',
             fatherName: '',
@@ -791,7 +837,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 35,
+            id: 37,
             certificateId: '',
             studentName: 'Azam Raza',
             fatherName: '',
@@ -814,7 +860,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 36,
+            id: 38,
             certificateId: '',
             studentName: 'Sarojnee',
             fatherName: '',
@@ -837,7 +883,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 37,
+            id: 39,
             certificateId: '',
             studentName: 'Shoaib',
             fatherName: '',
@@ -860,7 +906,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 38,
+            id: 40,
             certificateId: '',
             studentName: 'Animesh Singh',
             fatherName: '',
@@ -883,7 +929,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 39,
+            id: 41,
             certificateId: '',
             studentName: 'Saumya Sonker',
             fatherName: '',
@@ -906,7 +952,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 40,
+            id: 42,
             certificateId: '',
             studentName: 'Quasain Haider',
             fatherName: '',
@@ -929,7 +975,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 41,
+            id: 43,
             certificateId: '',
             studentName: 'Quosain hasan',
             fatherName: '',
@@ -952,7 +998,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 42,
+            id: 44,
             certificateId: '',
             studentName: 'Ayan Ali',
             fatherName: '',
@@ -975,7 +1021,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 43,
+            id: 45,
             certificateId: '',
             studentName: 'Amir',
             fatherName: '',
@@ -998,7 +1044,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 44,
+            id: 46,
             certificateId: '',
             studentName: 'Jalal',
             fatherName: '',
@@ -1021,7 +1067,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 45,
+            id: 47,
             certificateId: '',
             studentName: 'Taufeeq Ansari',
             fatherName: '',
@@ -1044,7 +1090,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 46,
+            id: 48,
             certificateId: '',
             studentName: 'Ibadur Rehman',
             fatherName: '',
@@ -1067,7 +1113,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 47,
+            id: 49,
             certificateId: '',
             studentName: 'Shaikh Rehan',
             fatherName: '',
@@ -1090,7 +1136,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 48,
+            id: 50,
             certificateId: '',
             studentName: 'Shahzad Mirza',
             fatherName: '',
@@ -1113,7 +1159,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 49,
+            id: 51,
             certificateId: '',
             studentName: 'Amit Kumar',
             fatherName: '',
@@ -1136,7 +1182,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 50,
+            id: 52,
             certificateId: '',
             studentName: 'Sarojnee',
             fatherName: '',
@@ -1159,7 +1205,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 51,
+            id: 53,
             certificateId: '',
             studentName: 'Mohtashim',
             fatherName: '',
@@ -1182,7 +1228,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 52,
+            id: 54,
             certificateId: '',
             studentName: 'Mukhtar',
             fatherName: '',
@@ -1205,7 +1251,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 53,
+            id: 55,
             certificateId: '',
             studentName: 'Fazilat',
             fatherName: '',
@@ -1228,7 +1274,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 54,
+            id: 56,
             certificateId: '',
             studentName: 'Bilal Haider',
             fatherName: '',
@@ -1251,7 +1297,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 55,
+            id: 57,
             certificateId: '',
             studentName: 'Abdul Wahab',
             fatherName: '',
@@ -1274,7 +1320,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 56,
+            id: 58,
             certificateId: '',
             studentName: 'Abu Ammar',
             fatherName: '',
@@ -1297,7 +1343,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 57,
+            id: 59,
             certificateId: '',
             studentName: 'Mehvish',
             fatherName: '',
@@ -1320,7 +1366,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 58,
+            id: 60,
             certificateId: '',
             studentName: 'Saltanat Imran',
             fatherName: '',
@@ -1343,7 +1389,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 59,
+            id: 61,
             certificateId: '',
             studentName: 'Muaaz Ahmad Siddiqui',
             fatherName: '',
@@ -1366,7 +1412,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 60,
+            id: 62,
             certificateId: '',
             studentName: 'Fahad Waseem',
             fatherName: '',
@@ -1389,7 +1435,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 61,
+            id: 63,
             certificateId: '',
             studentName: 'Intekhab Husain',
             fatherName: '',
@@ -1412,7 +1458,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 62,
+            id: 64,
             certificateId: '',
             studentName: 'Hassan Ahmad',
             fatherName: '',
@@ -1435,7 +1481,7 @@ export default function IssuedCertificetes() {
             address: 'Lucknow',
         },
         {
-            id: 63,
+            id: 65,
             certificateId: '',
             studentName: 'Hasan Baquir',
             fatherName: '',
