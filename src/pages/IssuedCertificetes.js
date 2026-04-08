@@ -1766,6 +1766,7 @@ export default function IssuedCertificetes() {
                                                                 <a
                                                                     href={item.certificateLink}
                                                                     target="_blank"
+                                                                    title="View Certificate"
                                                                     rel="noopener noreferrer"
                                                                     className="text-primary text-decoration-none"
                                                                 >
