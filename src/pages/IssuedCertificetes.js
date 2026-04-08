@@ -1,13 +1,15 @@
 import React, { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import userImage from '../assets/img/Images/userimage.avif'
+import certificateTaufeeq from '../assets/img/Certificate-Taufeeq.png'
+import certificateAnam from '../assets/img/Certificate-Anam.png'
 
 export default function IssuedCertificetes() {
     const [searchTerm, setSearchTerm] = useState('')
     const [statusFilter, setStatusFilter] = useState('All')
     const [courseFilter, setCourseFilter] = useState('All')
 
-    const certificateData = [
+      const certificateData = [
         {
             id: 1,
             certificateId: '',
@@ -30,6 +32,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: 'Complete',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 2,
@@ -53,6 +56,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: 'Complete',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 3,
@@ -76,6 +80,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: 'Complete',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 4,
@@ -99,6 +104,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 5,
@@ -122,6 +128,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: certificateTaufeeq,
         },
         {
             id: 6,
@@ -145,6 +152,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 7,
@@ -168,6 +176,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 8,
@@ -191,6 +200,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 9,
@@ -214,6 +224,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 10,
@@ -237,6 +248,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '07-09 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 11,
@@ -260,6 +272,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: 'Complete',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 12,
@@ -283,6 +296,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 13,
@@ -306,6 +320,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 14,
@@ -329,11 +344,12 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 15,
             certificateId: '250058',
-            studentName: 'Anam',           
+            studentName: 'Anam',
             fatherName: '',
             enrollmentNo: '102458',
             courseName: 'DCA',
@@ -352,6 +368,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: certificateAnam,
         },
         {
             id: 16,
@@ -375,6 +392,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 17,
@@ -398,6 +416,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 18,
@@ -421,6 +440,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 19,
@@ -444,6 +464,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 20,
@@ -467,6 +488,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '08-10 AM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 21,
@@ -490,6 +512,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 22,
@@ -513,6 +536,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 23,
@@ -536,6 +560,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 24,
@@ -559,6 +584,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 25,
@@ -582,6 +608,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 26,
@@ -605,6 +632,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 27,
@@ -628,6 +656,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 28,
@@ -651,6 +680,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 29,
@@ -674,6 +704,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 30,
@@ -697,6 +728,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '07-09 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 31,
@@ -720,6 +752,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 32,
@@ -743,6 +776,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 33,
@@ -766,6 +800,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 34,
@@ -789,6 +824,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 35,
@@ -812,6 +848,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 36,
@@ -835,6 +872,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 37,
@@ -858,6 +896,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 38,
@@ -881,6 +920,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '08-10 AM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 39,
@@ -904,6 +944,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 40,
@@ -927,6 +968,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 41,
@@ -950,6 +992,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 42,
@@ -973,6 +1016,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 43,
@@ -996,6 +1040,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 44,
@@ -1019,6 +1064,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 45,
@@ -1042,6 +1088,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 46,
@@ -1065,8 +1112,9 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
-        
+
         {
             id: 48,
             certificateId: '',
@@ -1089,6 +1137,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 49,
@@ -1112,6 +1161,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 50,
@@ -1135,6 +1185,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 51,
@@ -1158,6 +1209,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 52,
@@ -1181,6 +1233,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '08-10 AM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 53,
@@ -1204,6 +1257,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 54,
@@ -1227,6 +1281,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 55,
@@ -1250,6 +1305,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 56,
@@ -1273,6 +1329,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 57,
@@ -1296,6 +1353,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 58,
@@ -1319,6 +1377,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 59,
@@ -1342,6 +1401,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 60,
@@ -1365,6 +1425,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 61,
@@ -1388,6 +1449,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 62,
@@ -1411,6 +1473,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 63,
@@ -1434,6 +1497,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 64,
@@ -1457,6 +1521,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
+            certificateLink: ''
         },
         {
             id: 65,
@@ -1480,8 +1545,10 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
-        },        
+            certificateLink: ''
+        },
     ]
+
 
     const courses = ['All', ...new Set(certificateData.map(item => item.courseName || '').filter(Boolean))]
 
@@ -1693,7 +1760,26 @@ export default function IssuedCertificetes() {
                                                     <td>{item.enrollmentNo || ''}</td>
                                                     <td>{item.issueDate || ''}</td>
                                                     <td>{item.completionDate || ''}</td>
-                                                    <td className="fw-semibold text-primary">{item.certificateId || ''}</td>
+                                                     <td className="fw-semibold">
+                                                        {item.certificateId ? (
+                                                            item.certificateLink ? (
+                                                                <a
+                                                                    href={item.certificateLink}
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    className="text-primary text-decoration-none"
+                                                                >
+                                                                    {item.certificateId}
+                                                                </a>
+                                                            ) : (
+                                                                <span className="text-primary">
+                                                                    {item.certificateId}
+                                                                </span>
+                                                            )
+                                                        ) : (
+                                                            ''
+                                                        )}
+                                                    </td>
                                                     <td>
                                                         <span className={getStatusBadge(item.status)}>
                                                             {item.status || ''}
