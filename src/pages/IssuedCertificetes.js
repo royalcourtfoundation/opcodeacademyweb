@@ -1502,7 +1502,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
-        },
+        },        
     ]
 
     const courses = ['All', ...new Set(certificateData.map(item => item.courseName || '').filter(Boolean))]
@@ -1695,6 +1695,7 @@ export default function IssuedCertificetes() {
                                             <th>Student Name</th>
                                             <th>Course</th>
                                             <th>Address</th>
+                                            <th>Enrolment No</th>
                                             <th>Date of Enrolment</th>
                                             <th>Date of Completion</th>
                                             <th>Certificate No</th>
@@ -1711,6 +1712,7 @@ export default function IssuedCertificetes() {
                                                     <td>{item.studentName || ''}</td>
                                                     <td>{item.courseName || ''}</td>
                                                     <td>{item.address || ''}</td>
+                                                    <td>{item.enrollmentNo || ''}</td>
                                                     <td>{item.issueDate || ''}</td>
                                                     <td>{item.completionDate || ''}</td>
                                                     <td className="fw-semibold text-primary">{item.certificateId || ''}</td>
