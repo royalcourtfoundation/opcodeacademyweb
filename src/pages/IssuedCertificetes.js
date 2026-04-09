@@ -207,7 +207,7 @@ export default function IssuedCertificetes() {
             certificateLink: ''
         },
         {
-            id: 55,
+            id: 9,
             certificateId: 240010,
             studentName: 'Fazilat',
             fatherName: 'O Level',
