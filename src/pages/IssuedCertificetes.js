@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom'
 import userImage from '../assets/img/Images/userimage.avif'
 import certificateTaufeeq from '../assets/img/Certificate-Taufeeq.png'
 import certificateAnam from '../assets/img/Certificate-Anam.png'
+import certificateZain from '../assets/img/Certificate_Zain.png'
+import certificateFazilat from '../assets/img/Certificte_Fazilat.png'
+import certificateMukhtar from '../assets/img/Certificte_Mukhtar.png'
+import certificateSahilAbbas from '../assets/img/Certificte_SahilAbbas.png'
 
 export default function IssuedCertificetes() {
     const [searchTerm, setSearchTerm] = useState('')
     const [statusFilter, setStatusFilter] = useState('All')
     const [courseFilter, setCourseFilter] = useState('All')
 
-      const certificateData = [
+       const certificateData = [
         {
             id: 1,
             certificateId: '',
@@ -203,36 +207,36 @@ export default function IssuedCertificetes() {
             certificateLink: ''
         },
         {
-            id: 9,
-            certificateId: '',
+            id: 55,
+            certificateId: 240010,
             studentName: 'Fazilat',
-            fatherName: '',
-            enrollmentNo: '',
-            courseName: 'O Level',
+            fatherName: 'O Level',
+            enrollmentNo: 102410,
+            courseName: '',
             batchName: 'Batch-1 E',
             issueDate: '',
             completionDate: '',
-            grade: '',
+            grade: 'A',
             status: 'Verified',
-            mobile: '7800065812',
+            mobile: '',
             email: '',
             photo: userImage,
             semester: '',
-            session: '',
-            guardianContact: '9532631075',
+            session: '2024',
+            guardianContact: '',
             activeStatus: 'A',
             assignmentStatus: '',
             batchTiming: '06-08 PM',
             address: 'Lucknow',
-            certificateLink: ''
+            certificateLink: certificateFazilat
         },
         {
             id: 10,
-            certificateId: '',
-            studentName: 'Zain',
+            certificateId: 240019,
+            studentName: 'Zain Naqvi',
             fatherName: '',
-            enrollmentNo: '',
-            courseName: 'Data Analysis',
+            enrollmentNo: 102419,
+            courseName: 'Data Analyst',
             batchName: 'Batch-4 E',
             issueDate: '',
             completionDate: '',
@@ -248,7 +252,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '07-09 PM',
             address: 'Lucknow',
-            certificateLink: ''
+            certificateLink: certificateZain,
         },
         {
             id: 11,
@@ -396,15 +400,15 @@ export default function IssuedCertificetes() {
         },
         {
             id: 17,
-            certificateId: '',
+            certificateId: 25008,
             studentName: 'Mukhtar Khan',
             fatherName: '',
-            enrollmentNo: '',
-            courseName: 'DAC',
+            enrollmentNo: 102408,
+            courseName: 'DCA',
             batchName: '',
             issueDate: '',
             completionDate: '',
-            grade: '',
+            grade: 'A',
             status: 'Verified',
             mobile: '95559652116',
             email: '',
@@ -416,7 +420,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
-            certificateLink: ''
+            certificateLink: certificateMukhtar,
         },
         {
             id: 18,
@@ -828,15 +832,15 @@ export default function IssuedCertificetes() {
         },
         {
             id: 35,
-            certificateId: '',
+            certificateId: 250025,
             studentName: 'Sahil Abbas',
             fatherName: '',
-            enrollmentNo: '',
+            enrollmentNo: 102425,
             courseName: 'AI/ML',
             batchName: '',
             issueDate: '',
             completionDate: '',
-            grade: '',
+            grade: 'A',
             status: 'Verified',
             mobile: '8303777214',
             email: '',
@@ -848,7 +852,7 @@ export default function IssuedCertificetes() {
             assignmentStatus: '',
             batchTiming: '',
             address: 'Lucknow',
-            certificateLink: ''
+            certificateLink: certificateSahilAbbas
         },
         {
             id: 36,
@@ -1282,31 +1286,7 @@ export default function IssuedCertificetes() {
             batchTiming: '',
             address: 'Lucknow',
             certificateLink: ''
-        },
-        {
-            id: 55,
-            certificateId: '',
-            studentName: 'Fazilat',
-            fatherName: '',
-            enrollmentNo: '102410',
-            courseName: '',
-            batchName: 'Batch-1 E',
-            issueDate: '',
-            completionDate: '',
-            grade: '',
-            status: 'Verified',
-            mobile: '',
-            email: '',
-            photo: userImage,
-            semester: '',
-            session: '2024',
-            guardianContact: '',
-            activeStatus: 'A',
-            assignmentStatus: '',
-            batchTiming: '06-08 PM',
-            address: 'Lucknow',
-            certificateLink: ''
-        },
+        },        
         {
             id: 56,
             certificateId: '',
